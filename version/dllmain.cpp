@@ -14,6 +14,8 @@
 HANDLE hMainThread;
 HMODULE g_hModule;
 
+
+
 // Function to initialize and show the console window
 void InitializeConsole() {
     FILE* pFile = nullptr;
@@ -44,7 +46,7 @@ struct Checkbox {
 void displayCheckboxes(const std::vector<Checkbox>& checkboxes, size_t selectedCheckbox) {
     system("cls"); // Clear the console (Windows specific)
 
-    printf(_XOR_("[Init] - Helldiver 2 PoC DLL Proxy...\n"));
+    printf(_XOR_("[Init] - Helldiver 2 PoC111111 DLL Proxy...\n"));
     printf(_XOR_("[Init] - Thanks to cfemen and gir489...\n"));
 
     printf(_XOR_("[Ready] : Select some of the features below by pressing the [Space] key.\n"));
